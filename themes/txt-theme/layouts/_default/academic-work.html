@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<main class="container">
+    <h2>{{ .Title }}</h2>
+    <dl>
+        {{ with .Params.curso }}
+        <dt>{{ T "course" }}</dt>
+        <dd>{{ . }}</dd>
+        {{ end }}
+        {{ with .Params.disciplina }}
+        <dt>{{ T "discipline" }}</dt>
+        <dd>{{ . }}</dd>
+        {{ end }}
+        {{ with .Params.instituicao }}
+        <dt>{{ T "institution" }}</dt>
+        <dd>{{ . }}</dd>
+        {{ end }}
+        {{ with .Params.idioma }}
+        <dt>{{ T "language" 1}}</dt>
+        <dd>{{ . }}</dd>
+        {{ end }}
+        {{ with .Params.documento }}
+        <dt>{{ T "document" 1 }}</dt>
+        <dd><a href="{{ . }}">link para o documento</a></dd>
+        {{ end }}
+    </dl>
+    <section class="post-conteudo">
+        {{ .Content }}
+    </section>
+    {{- partial "next-prev.html" . -}}
+</main>
+
+{{ end }}

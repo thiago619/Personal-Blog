@@ -1,0 +1,23 @@
+<nav class="container">
+    <ul>
+        <li>
+            <a href="{{ .Site.GetPage.RelPermalink }}">Home</a>
+        </li>
+        {{- with .GetPage "curricullum" -}}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </li>     
+        {{ end }}
+        {{- with .GetPage "post" -}}
+                    <li>
+                        <a href="{{ .RelPermalink }}">posts</a>
+                    </li>     
+        {{ end }}
+        {{- with .GetPage "academic" -}}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ T "academic" 1 }}</a>
+                    </li>     
+        {{ end }}
+        
+                </ul>
+</nav>

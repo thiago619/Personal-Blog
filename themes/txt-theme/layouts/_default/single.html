@@ -1,0 +1,17 @@
+{{ define "main"}}
+    <article class="container">
+        <h2>{{ .Title }}</h2>
+        <p><small>{{ T "posted-on"}}: <time datetime="{{ .Params.date | time.Format "2006-01-06T15:04Z07:00"}}">{{ .Params.date | time.Format .Site.Params.date_format}}</time></small></p>
+        <p><small>{{ T "written-by"}}: {{ .Site.Params.author}}</small></p>
+        {{- partial "taxonomy.html" . -}}
+
+        
+        
+        <main class="post-conteudo">
+            {{ .Content }}
+        </main>
+        {{- partial "next-prev.html" . -}}
+    </article>
+
+    <hr>
+{{ end }}

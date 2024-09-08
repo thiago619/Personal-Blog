@@ -1,0 +1,6 @@
+{{ range where .Site.RegularPages "Type" "Taxonomies" }}
+  <div>
+    <h2>{{.Title}}</h2>
+    <a href="{{.Permalink}}">Read more</a>
+  </div>
+{{ end }}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}">
+    <head>
+        {{ if .IsHome }}
+        <title>{{ .Title }}</title>
+        {{ else if .IsPage }}
+        <title>{{ .Site.Title }} | {{ .Title }}</title>
+        {{ end }}
+        {{- if .IsTranslated -}}
+        {{ range first 1 .AllTranslations }}
+        <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+        {{- end -}}
+        {{ range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+        {{- end -}}
+        {{ end }}
+        <meta name="generator" content="Humano">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Thiago Santos">
+        <meta content=nopin name=pinterest>
+        <meta content="noindex, nofollow, noai, noimageai" name=googlebot>
+        <link href="mailto:contact@thiagosantos.blog" rel=me>
+        <link href="https://br.linkedin.com/in/thiago619" rel=me>
+        <link href="https://github.com/thiago619" rel=me>
+        <meta content="CC BY-NC-SA 4.0" name=usage-rights>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+        {{ .Content }}
+    </body>
+
+</html>

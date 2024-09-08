@@ -1,0 +1,88 @@
+[teste]
+
+other = "casa"
+
+[no-prev-post]
+
+other = "Não há nada antes disso"
+
+[no-next-post]
+
+other = "Não há nada depois disso"
+
+[posted-on]
+
+other = "postado em"
+
+[contact]
+
+other = "contato"
+
+[nokia-c3]
+
+other = 'Este site é perfeitamente exibido em um <a href="https://wikipedia.org/wiki/Nokia_C3-00">Nokia C3'
+
+[designed-to-last]
+
+other = "Esta página foi projetada para durar"
+
+[build-with]
+
+other="Utilizando"
+
+[tested-on]
+
+other = 'Este site foi testado no <a href="https://brave.com/">Brave</a> e no <a href="https://lynx.invisible-island.net/">Lynx Browser</a>'
+
+[hosted-on]
+
+other = 'Hospedado em um <a href="https://ubuntu.com/download/server">Ubuntu Server</a> com <a href="https://httpd.apache.org/">Apache</a>'
+
+[under-the-license]
+
+other = 'sob a licença'
+
+[written-by]
+
+other = 'escrito por'
+
+[posts-with-the-tag]
+
+other = 'posts com a tag'
+
+[about-me]
+
+other = "Sejam bem vindos à minha página. Sou um programador e aqui posto meus projetos, trabalhos e artigos. Esta página está disponível em Português e em Inglês, selecione o idioma que achar melhor no final da página. Sinta-se à vontade para me enviar um e-mail."
+
+[language]
+
+one = "idioma"
+other = "idiomas"
+
+[previous]
+
+other = "anterior"
+
+[next]
+
+other = "próximo"
+
+[course]
+
+other = "curso"
+
+[discipline]
+
+other = "disciplina"
+
+[institution]
+
+other = "instituição"
+
+[document]
+
+one = "documento"
+
+[academic]
+
+one = "acadêmico"

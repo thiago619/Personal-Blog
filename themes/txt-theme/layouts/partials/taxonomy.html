@@ -1,0 +1,16 @@
+{{$currentPage := . }}
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+                {{ with $currentPage.GetTerms $taxonomyname}}
+                    <p><small>{{ $taxonomyname }}: 
+                        {{ $len := len . }}
+                        {{ range $index, $taxpage := . }}
+                            <a href="{{ $taxpage.RelPermalink }}">
+                            {{- $taxpage.Title -}}
+                            </a>
+                            {{ if lt (add $index 1) $len }}
+                             | 
+                            {{ end }}
+                        {{ end }}
+                    </small></p>
+                {{ end }}
+            {{ end }}

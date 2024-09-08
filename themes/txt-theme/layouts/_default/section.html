@@ -1,0 +1,18 @@
+{{ define "main" }}
+        <main class="container">
+            {{ if eq .Title "Academics" }}
+                <h2>{{ T "academic" 1 }}</h2>
+            {{ else }}
+            <h2>{{ .Title }}</h2>
+            {{ end }}
+            <ul>
+    {{ range .Data.Pages }}
+                <li>
+                    <time datetime="{{ .Params.date | time.Format "2006-01-02T15:04Z07:00"}}">{{ .Params.date | time.Format .Site.Params.date_format }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>     
+    {{ end }}
+            </ul>
+        </main>
+        <hr>
+
+{{ end }}

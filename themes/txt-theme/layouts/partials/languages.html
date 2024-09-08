@@ -1,0 +1,10 @@
+{{- if .IsTranslated -}}
+<section class="container">
+    <h2>{{ T "language" 2 | strings.ToUpper}}</h2>
+    <ul>
+        {{ range .AllTranslations }}
+        <li><a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a></li>
+        {{- end -}}
+        </ul>
+</section>
+{{ end }}

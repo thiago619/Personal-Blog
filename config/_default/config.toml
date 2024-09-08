@@ -1,0 +1,39 @@
+baseURL = 'https://thiagosantos.blog'
+title = 'Thiago Santos'
+theme = 'txt-theme'
+defaultContentLanguage = 'en' 
+defaultcontentlanguageinsubdir = true
+enableRobotsTXT = true
+removepathaccents = true
+[outputs]
+  home = ['json','html']
+[languages.pt]
+  disabled = false
+  languageCode = "pt"
+  languageDirection = "ltr"
+  languageName = "Português"
+[languages.pt.params]
+  description = "Aonde posto coisas que tenho interesse"
+  date_format = "02/01/2006"
+  author = "Thiago Santos"
+  author_url = "https://thiagosantos.blog"
+  copyright = "Thiago Santos"
+  email = "contato@thiagosantos.blog"
+[languages.pt.taxonomies]
+  categoria = 'categorias'
+  tag = 'tags'
+[languages.en]
+    disabled = false
+    languageCode = "en"
+    languageDirection = "ltr"
+    languageName = "English"
+[languages.en.params]
+    description = "Here I post things I have interest"
+    date_format = "01/02/2006"
+    author = "Thiago Santos"
+    author_url = "https://thiagosantos.blog"
+    copyright = "Thiago Santos"
+    email = "contato@thiagosantos.blog"
+[languages.en.taxonomies]
+    category = 'categories'
+    tag = 'tags'

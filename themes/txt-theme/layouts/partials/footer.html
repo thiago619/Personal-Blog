@@ -1,0 +1,25 @@
+<footer  class="container">
+    <section class="contato">
+        <h2>{{ T "contact" | strings.ToUpper}}</h2>
+        <address>
+            <ul>
+                <li>e-mail: <a href="mailto:contato@thiagosantos.blog">contato@thiagosantos.blog</a></li>
+            </ul>
+            
+        </address>
+    </section>
+    <hr>
+    <div>
+        <ul>
+            <li><small>{{ T "tested-on" | safeHTML }}</small></li>
+            <li><small>{{ T "hosted-on" | safeHTML }}</small></li>
+            <li><small>{{ T "build-with"}} <a href="https://gohugo.io/">Hugo</a></small></li>
+            <li><small><a href="https://jeffhuang.com/designed_to_last/">{{ T "designed-to-last" }}</a></small></li>
+            <li><small>{{ T "nokia-c3" | safeHTML }}</a></small></li>
+        </ul>
+    </div>
+    <div>
+        <small> &copy; 2024 <a href="mailto:contato@thiagosantos.blog" rel="author">Thiago Santos</a> {{ T "under-the-license" }} <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></small>
+    </div>
+    
+</footer>

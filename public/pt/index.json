@@ -1,0 +1,39 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Thiago Santos",
+    "home_page_url": "https://thiagosantos.blog/pt/index.json",
+    "feed_url": "https://thiagosantos.blog/pt/index.json",
+    "author": {
+        "name": "Thiago Santos",
+        "url": "https://thiagosantos.blog"
+    },
+    
+    "items": [
+        
+         {
+            "title": "curricullum",
+            "id": "https://thiagosantos.blog/pt/curricullum/",
+            "url": "https://thiagosantos.blog/pt/curricullum/",
+            "content_html": "\u003cheader\u003e\n\t\u003ch1\u003eThiago Santos\u003c/h1\u003e\n\u003c/header\u003e\n\u003chr\u003e\n\u003cmain\u003e\n\t\u003csection\u003e\n\t\t\u003ch2\u003eContato\u003c/h2\u003e\n\t\tE-Mail: \u003ca href=\"mailto:contato@thiagosantos.blog\"\u003econtato@thiagosantos.blog\u003c/a\u003e\n\t\u003c/section\u003e\n\t\u003chr\u003e\n\t\u003csection\u003e\n\t\t\u003ch2\u003eFormação\u003c/h2\u003e\n\t\t\u003cul\u003e\n\t\t\u003cli\u003e\n\t\t\t\u003ch3\u003eGraduação\u003c/h3\u003e\n\t\t\t\u003cp\u003eAnálise e Desenvolvimento de Sistemas\n\t\t\t\u003cp\u003e\n\t\t\t\t\u003csmall\u003e\u003ca href=\"https://matriculas.ampli.com.br/\"\u003eCentro Universitário Anhanguera Pitágoras Ampli\u003c/a\u003e\u003c/small\u003e\n\t\t\t\u003cp\u003e2023 - presente\u003c/p\u003e\n\t\t\u003c/li\u003e\n\t\t\u003cul\u003e\n\t\u003c/section\u003e\n\t\u003chr\u003e\n\t\u003csection\u003e\n\t\t\u003ch2\u003eCursos e Certificações\u003c/h2\u003e\n\t\t\u003cul\u003e\n            \u003cli\u003e\n                \u003ch3\u003eApache Webserver - do Básico ao Avançado\u003c/h3\u003e\n\t\t\t    \u003cp\u003e\u003csmall\u003e\u003ca href=\"https://www.udemy.com\"\u003eUdemy\u003c/a\u003e\u003c/small\u003e\u003c/p\u003e\n\t\t\t    \u003cp\u003eJun de 2024\u003c/p\u003e\n            \u003c/li\u003e\n        \u003c/ul\u003e\n\t\u003c/section\u003e\n\t\u003chr\u003e\n\t\u003csection\u003e\n\t\u003ch2\u003e Experiências Profissionais\u003c/h2\u003e\n\t\u003cul\u003e\n        \u003cli\u003e\n            \u003ch3\u003eOperador de Informática\u003c/h3\u003e\n\t\t    \u003csmall\u003eAlmanara Restaurantes e Lanchonetes\u003c/small\u003e\n\t\t    \u003cp\u003emai de 2024 - presente\u003c/p\u003e\n        \u003c/li\u003e\n\t\t\u003cli\u003e\n            \u003ch3\u003eAuxiliar de TI\u003c/h3\u003e\n            \u003csmall\u003eAlmanara Restaurantes e Lanchonetes\u003c/small\u003e\n            \u003cp\u003efev de 2023 - fev de 2024\u003c/p\u003e\n        \u003c/li\u003e\n        \u003cli\u003e\n            \u003ch3\u003eAuxiliar de Empacotamento\u003c/h3\u003e\n            \u003csmall\u003eAlmanara Restaurantes e Lanchonetes\u003c/small\u003e\n            \u003cp\u003ejun de 2018 - jan de 2023\u003c/p\u003e\n        \u003c/li\u003e\n    \u003c/ul\u003e\n\t\u003c/section\u003e\n\u003c/main\u003e",
+            "date_published": "2024-02-09T13:00:09-0300"
+        }
+        
+        , {
+            "title": "Posts",
+            "id": "https://thiagosantos.blog/pt/post/",
+            "url": "https://thiagosantos.blog/pt/post/",
+            "content_html": "",
+            "date_published": "2024-27-08T12:56:36-0300"
+        }
+        
+        , {
+            "title": "Academics",
+            "id": "https://thiagosantos.blog/pt/academic/",
+            "url": "https://thiagosantos.blog/pt/academic/",
+            "content_html": "",
+            "date_published": "2024-19-05T23:25:04-0300"
+        }
+        
+    ]
+    
+}

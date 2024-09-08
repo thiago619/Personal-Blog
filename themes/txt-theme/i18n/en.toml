@@ -1,0 +1,88 @@
+[teste]
+
+other = "home"
+
+[no-prev-post]
+
+other = "Nothing before it"
+
+[no-next-post]
+
+other = "Nothing after it"
+
+[posted-on]
+
+other = "posted on"
+
+[contact]
+
+other = "contact"
+
+[nokia-c3]
+
+other = 'This site works on a <a href="https://wikipedia.org/wiki/Nokia_C3-00">Nokia C3'
+
+[designed-to-last]
+
+other = "This page was designed to last"
+
+[build-with]
+
+other="Build with"
+
+[tested-on]
+
+other = 'This site was tested on <a href="https://brave.com/">Brave</a> and <a href="https://lynx.invisible-island.net/">Lynx Browser</a>'
+
+[hosted-on]
+
+other = 'Hosted on a <a href="https://ubuntu.com/download/server">Ubuntu Server</a> with <a href="https://httpd.apache.org/">Apache</a>'
+
+[under-the-license]
+
+other = 'under the license'
+
+[written-by]
+
+other = 'written by'
+
+[posts-with-the-tag]
+
+other = 'posts with the tag'
+
+[about-me]
+
+other = "Welcome to my website. I'm a developer and here I post my projects, works and articles. This site is available in Portuguese and English, choose the language you prefer at the footer of the page. Feel free to send me an email."
+
+[language]
+
+one = "language"
+other = "languages"
+
+[previous]
+
+other = "previous"
+
+[next]
+
+other = "next"
+
+[course]
+
+other = "course"
+
+[discipline]
+
+other = "discipline"
+
+[institution]
+
+other = "institution"
+
+[document]
+
+one = "document"
+
+[academic]
+
+one = "academic"
