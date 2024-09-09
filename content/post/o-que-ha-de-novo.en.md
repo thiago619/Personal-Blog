@@ -1,5 +1,5 @@
 ---
-title: "Whats new"
+title: "What's new"
 slug: "whats-new"
 date: 2024-09-09T16:59:34-03:00
 draft: false
