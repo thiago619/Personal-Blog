@@ -1,4 +1,4 @@
-baseURL = 'https://thiagosantos.blog'
+baseURL = 'https://thiagosantos.blog/'
 title = 'Thiago Santos'
 theme = 'txt-theme'
 defaultContentLanguage = 'en' 
