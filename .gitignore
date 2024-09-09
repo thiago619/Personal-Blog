@@ -18,3 +18,5 @@ bin-release/
 
 # Hugo
 public/
+# Exclude generated files
+_gen/
