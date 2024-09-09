@@ -8,6 +8,7 @@ bin-release/
 .settings/
 
 # lock
+
 *.lock
 
 # Executables
@@ -16,7 +17,17 @@ bin-release/
 *.ipa
 *.apk
 
-# Hugo
 public/
-# Exclude generated files
+
 _gen/
+
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+hugo.exe
+hugo.darwin
+hugo.linux
+
+/.hugo_build.lock
