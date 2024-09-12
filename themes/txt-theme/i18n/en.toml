@@ -86,3 +86,11 @@ one = "document"
 [academic]
 
 one = "academic"
+
+[name]
+
+other = "name"
+
+[author-image]
+
+other = "Image of the author"
