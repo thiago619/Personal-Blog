@@ -5,9 +5,15 @@
             <ul>
                 <li><img src="/favicon.ico" class="u-photo" alt="{{ T "author-image" }}"/></li>
                 <li><b><span class="p-given-name">Thiago</span> <span class="p-family-name">Santos</span></b></li>
-                <li><a href="mailto:contato@thiagosantos.blog" class="u-email">contato@thiagosantos.blog</a></li>
-                <li><a href="https://br.linkedin.com/in/thiago619" class="u-url">linkedin</a></li>
-                <li><a href="https://github.com/thiago619" class="u-url">github</a></li>
+                {{- with .Site.Params.social -}}
+                {{- range . -}}
+                {{ if eq .service "email" }}
+                <li><a href="{{ .link }}" class="u-email">{{ .name }}</a></li>
+                {{ else -}}
+                <li><a href="{{ .link }}" class="u-url">{{ .name }}</a></li>
+                {{ end -}}
+                {{ end }}
+                {{- end -}}
             </ul>
             
         </address>

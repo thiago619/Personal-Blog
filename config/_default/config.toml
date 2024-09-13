@@ -37,3 +37,21 @@ removepathaccents = true
 [languages.en.taxonomies]
     category = 'categories'
     tag = 'tags'
+
+[params.social]
+  [params.social.linkedin]
+    service = "linkedin"
+    name = "linkedin"
+    link = "https://br.linkedin.com/in/thiago619"
+  [params.social.github]
+    service = "github"
+    name = "github"
+    link = "https://github.com/thiago619"
+  [params.social.email]
+    service = "email"
+    name = "contato@thiagosantos.blog"
+    link = "mailto:contato@thiagosantos.blog"
+  [params.social.fc2]
+    service = "fc2"
+    name = "fc2"
+    link = "https://thiagosantos.blog.fc2.com"
