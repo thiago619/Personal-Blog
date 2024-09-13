@@ -1,11 +1,4 @@
-User-agent: ia_archiver
-User-agent: wibybot
-User-agent: search.marginalia.nu
-User-agent: MojeekBot
-Disallow:
-
-
 User-Agent: *
-Disallow: /
+Disallow: /admin
 
 Sitemap: {{ "sitemap.xml" | absURL }}
