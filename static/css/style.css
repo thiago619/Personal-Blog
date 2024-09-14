@@ -17,6 +17,7 @@ body{
     width: min(520px,95%);
     background-color: white;
     padding: 2vh;
+    border-radius: 5px;
 }
 
 hr{
