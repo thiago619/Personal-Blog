@@ -15,8 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Thiago Santos">
         <meta content=nopin name=pinterest>
-        <meta content="noindex, nofollow, noai, noimageai" name=googlebot>
-        {{- with .Site.Params.social -}}
+        <meta content="noai, noimageai" name="robots">
+        {{ with .Site.Params.social -}}
         {{- range . -}}
         <link href="{{ .link }}" rel="me">
         {{ end }}
