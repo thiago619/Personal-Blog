@@ -55,3 +55,7 @@ removepathaccents = true
     service = "fc2"
     name = "fc2"
     link = "https://thiagosantos.blog.fc2.com"
+  [params.social.neocities]
+    service = "neocities"
+    name = "neocities"
+    link = "https://thiago619.neocities.org"
