@@ -1,0 +1,12 @@
+{{ define "main"}}
+    <article class="container">
+        <h2>{{ .Title }}</h2>
+        
+        <main class="post-conteudo">
+            {{ .Content }}
+        </main>
+        {{- partial "next-prev.html" . -}}
+    </article>
+
+    <hr>
+{{ end }}
