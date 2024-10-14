@@ -18,6 +18,11 @@
                         <a href="{{ .RelPermalink }}">{{ T "academic" 1 }}</a>
                     </li>     
         {{ end }}
+        {{- with .GetPage "apps" -}}
+                    <li>
+                        <a href="{{ .RelPermalink }}">apps</a>
+                    </li>     
+        {{ end }}
             <li>
                 <a href="{{ .Site.BaseURL }}git">git</a>
             </li> 
