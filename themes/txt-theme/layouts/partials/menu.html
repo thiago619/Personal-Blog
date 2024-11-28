@@ -3,11 +3,9 @@
         <li>
             <a href="{{ .Site.GetPage.RelPermalink }}">Home</a>
         </li>
-        {{- with .GetPage "curricullum" -}}
                     <li>
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <a href="/docs/curriculum.pdf">curricullum</a>
                     </li>     
-        {{ end }}
         {{- with .GetPage "post" -}}
                     <li>
                         <a href="{{ .RelPermalink }}">posts</a>
