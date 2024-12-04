@@ -9,16 +9,24 @@ html{
 }
 
 body{
-    background-image:url("/img/background.jpg");
-    background-attachment: fixed;
+    background-color: black;
+    color: white;
 }
 
 .container{
     margin: 5vh auto;
     width: min(520px,95%);
-    background-color: white;
+    border: 1px solid white;
     padding: 2vh;
     border-radius: 5px;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
 }
 
 hr{
