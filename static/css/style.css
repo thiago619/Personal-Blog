@@ -22,11 +22,11 @@ body{
 }
 
 a{
-    color: white;
+    color: rgb(161, 133, 206);
 }
 
 a:visited{
-    color: white;
+    color: rgb(72, 107, 221);
 }
 
 hr{
